@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# WYSIWYG Web Page Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the WYSIWYG Web Page Builder project! This tool allows you to create web page layouts with an intuitive drag-and-drop interface, edit content directly on the canvas, and preview your designs.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Drag-and-Drop Components**: Easily add and position text boxes, images, and buttons on your web page.
+- **Resizable and Draggable Components**: Components can be resized and moved around the canvas with ease.
+- **Text Editing**: Use the integrated Quill editor to style and format text directly on the canvas.
+- **Image Upload**: Upload and display images in your design.
+- **Button Customization**: Add and edit button text to fit your needs.
+- **Preview Mode**: Toggle between design mode and preview mode to see your final layout.
+- **Background Color Selector**: Change the background color of the canvas and individual components.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the repository**:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   git clone https://github.com/swapnilnarhire/wysiwyg-builder.git
+   ```
 
-### `npm test`
+2. **Navigate to the project directory**:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   cd wysiwyg-builder
+   ```
 
-### `npm run build`
+3. **Install dependencies**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Start the development server**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+   The application will be available at `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Add Components**:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   - Use the toolbar to drag and drop text boxes, images, and buttons onto the canvas.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Edit Components**:
 
-## Learn More
+   - Click on a component to edit its content.
+   - For text boxes, use the Quill editor to format text.
+   - For images, upload a file from your computer.
+   - For buttons, edit the button text.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Resize and Move Components**:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   - Drag and drop components to reposition them.
+   - Resize components by dragging their edges.
 
-### Code Splitting
+4. **Change Background Color**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   - Click the background color selector to change the canvas background color.
 
-### Analyzing the Bundle Size
+5. **Preview Your Design**:
+   - Click the preview button to see how your design looks.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Files and Directories
 
-### Making a Progressive Web App
+- **`src/components/`**: Contains React components used in the application.
+- **`src/styles/`**: Contains CSS files for styling the components.
+- **`src/utils/`**: Contains utility files, such as constants and helper functions.
+- **`App.js`**: Main component that sets up the drag-and-drop context and renders the toolbar and preview button.
+- **`Canvas.js`**: Contains the canvas where components are dropped and managed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contribution
 
-### Advanced Configuration
+Feel free to contribute to the project by submitting pull requests or opening issues. Your contributions are always welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Thank You!
 
-### Deployment
+Thank you for using the WYSIWYG Web Page Builder! We hope this tool helps you create beautiful web pages with ease and flexibility. Your feedback and contributions are invaluable to us, and we appreciate your support in making this project better.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions, suggestions, or feedback, please don't hesitate to reach out. Happy building!
