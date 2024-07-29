@@ -83,7 +83,7 @@ const Canvas = ({ isPreview, showColorPicker }) => {
   };
 
   const renderComponent = (component) => {
-    const { id, type, x, y, width, height, content } = component;
+    const { id, type, content } = component;
     const componentStyle = { width: "100%", height: "100%" };
 
     let Component;
